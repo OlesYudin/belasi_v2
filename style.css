@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+header {
+    background: #000;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    color: #fff;
+    padding: 0 10% 0 10%;
+}
+header a {
+      color: #fff;
+}
+#logo-ec {
+    border: 1.5px solid #fff;
+    border-radius: 5px;
+    padding: 8px 8px;
+    margin: 28px 0 28px 0;
+    background: #235da8;
+    font-family: "Righteous", cursive;
+    font-size: 18px;
+}
+#logo-txt {
+    margin: 39px 0 0 20px;
+    font-family: "Righteous", cursive;
+    font-size: 18px;
+}
+.logo {
+    /* border: 1px solid red; */
+    margin: 30px 0 10px 0;
+}
+.time {
+    /* border: 1px solid red; */
+    margin: 20px 0 20px 0;
+    color: #fff;
+    line-height: 28px;
+    font-size: 14px;
+    font-family: "Russo One", sans-serif;
+    text-align: center;
+}
+.time span {
+    font-size: 12px;
+}
+.phone-number {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin: 22px 0 22px 0;
+    line-height: 2;
+    font-family: "Russo One", sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+.phone-order {
+    text-align: center;
+    /* border: 1px solid red; */
+    margin: 25px 0 25px 0;
+    padding: 17px 0 17px 0;
+    border-radius: 2px;
+    color: #fff;
+    background: #1669b3;
+    font-family: "Russo One", sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+}
+.phone-order:hover,
+#logo-ec:hover, 
+.txt-btn button:hover, 
+.block-advantage-price input[type="submit"]:hover, 
+.btn-price:hover {
+    transition: 0.7s;
+    transition-delay: 0.05s;
+    background: #f7b516;
+    box-shadow: 0 0 20px #f7b516, 0 0 40px #f7b516;
+    color: #000;
+}
+.phone-order:hover a {
+    color: #000;
+    transition: 0.7s;
+    transition-delay: 0.05s;
+}
+#logo-ec:hover {
+    color: #fff;
+}
+
+.block-content {
+    background: url(img/bg-track.png) no-repeat;
+    background-size: contain;
+    height: 861px;
+}
+.block-content .info {
+    background: #f7b516;
+    margin-left: 15%;
+    width: 25%;
+    height: 621px;
+    padding: 0 5% 0 5%;
+}
+.block-content .txt-h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 28px;
+    padding: 80px 0 25px 0;
+}
+.block-content .txt-p {
+    font-weight: 400;
+    font-family: "Righteous", cursive;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+.bank, .track, .calendar, .medal {
+    display: flex;
+    margin: 25px 0 25px 0;
+}
+.bank p, .track p, .calendar p, .medal p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    margin-left: 20px;
+}
+.block-price {
+    background: #fff url(img/bg-price.png) no-repeat ;
+    background-size: contain;
+    background-attachment: local;
+    top: -150px;
+    max-width: 100%;
+    position: relative;
+}
+.form-price {
+    text-align: right;
+    margin-right: 10%;
+}
+.form-price h3 {
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    margin: 0px 2.5% 40px 0;
+}
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 40%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.email, .phone {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    font-weight: 800;
+}
+.label {
+    position: relative;
+    display: grid;
+    width: 80%;
+    margin: 0 20% 50px 0;
+    font-weight: 800;
+    height: 30px;
+}
+.label input {
+    font-weight: 600;
+}
+.label span {
+    position: absolute;
+    display: inline-block;
+    bottom: 5px;
+    left: 10px;
+    opacity: .5;
+    visibility: hidden;
+    transition: .2s;
+    font-weight: 600;
+}
+.label input:placeholder-shown~span {
+    visibility: visible;
+}
+.label input:placeholder-shown:focus~span,
+.label input:not(:placeholder-shown)~span {
+    bottom: 100%;
+    opacity: .8;
+    font-size: 80%;
+    visibility: visible;
+    font-weight: 800;
+}
+.email input, .phone input {
+    border: none;
+    outline: none;
+}
+.email img, .phone img {
+    margin: 5px 10px;
+}
+.price-clock {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    margin: 10px 0 100px 0;
+}
+.price-clock img {
+    width: 30px;
+    height: 30px;
+    margin: 5px 10px;
+}
+.btn-price {
+    width: 90%;
+    height: 60px;
+    margin: 0 5% 0 5%;
+    background: #1866af;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}

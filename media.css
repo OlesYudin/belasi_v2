@@ -1,0 +1,252 @@
+@media (min-width: 994px) and (max-width: 1070px) {
+    header {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .block-content {
+        height: 500px;
+    }
+    .block-content .info {
+        height: 500px;
+    }
+    .block-content .txt-h2 {
+        padding: 40px 0 20px 0;
+    }
+    .block-content .txt-p {
+        padding-bottom: 20px;
+    }
+    .bank, .track, .calendar, .medal {
+        margin: 15px 0 15px 0;
+        font-size: 12px;
+    }
+    .form-price {
+        margin-right: 5%;
+    }
+    .form-price h3 {
+        margin: 120px 0 40px 0;
+    }
+    .price-clock p {
+        margin-top: -5px;
+    }
+    .price-clock img {
+        margin: 10px 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    header {
+        padding: 0 5% 0 5%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .phone-number {
+        font-size: 12px;
+    }
+    #logo-txt {
+        font-size: 16px;
+    }
+    .logo {
+        margin: 35px 0 10px 0;
+    }
+    .block-content {
+        height: 450px;
+    }
+    .block-content .info {
+        height: 450px;
+        width: 30%;
+        padding: 0 3% 0 3%;
+    }
+    .block-content .txt-h2 {
+        padding: 10px 0 20px 0;
+    }
+    .block-content .txt-p {
+        padding-bottom: 20px;
+    }
+    .bank, .track, .calendar, .medal {
+        margin: 15px 0 15px 0;
+        font-size: 12px;
+    } 
+    .form-price {
+        margin-right: 35%;
+    }
+    .form-price h3 {
+        font-size: 24px;
+        margin: 120px 0 40px 20%;
+        width: 100%;
+    }
+    .form-price p {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .form-price span {
+        font-size: 14px;
+    } 
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    header {
+        padding: 0 5% 0 5%;
+        grid-template-columns: 1fr 1fr;
+    }
+    #logo-txt {
+        font-size: 18px;
+    }
+    .logo {
+        margin: 35px 0 0 0;
+        order: 1;
+    }
+    .phone-order {
+        order: 2;
+        margin-left: auto;
+        padding: 17px 10% 17px 10%;
+    }
+    .time {
+        order: 3;
+        margin: 0 0 10px 0;
+        margin-right: auto;
+        padding: 0 0 0 5%;
+        
+    }
+    .phone-number {
+        order: 4;
+        margin: 0 0 10px;
+        margin-left: auto;
+        padding-right: 10%;
+    }
+    .phone-order {
+        margin-bottom: 10px;
+    }
+    .block-content {
+        height: 350px;
+    }
+    .block-content .info {
+        height: 350px;
+        width: 35%;
+        padding: 0 3% 0 3%;
+        margin-left: 10%;
+    }
+    .block-content .txt-h2 {
+        font-size: 22px;
+        padding: 5px 0 5px 0;
+    }
+    .block-content .txt-p {
+        padding-bottom: 10px;
+        font-size: 12px;
+    }
+    .bank, .track, .calendar, .medal {
+        margin: 10px 0 15px 0;
+        font-size: 12px;
+    }
+    .form-price h3 {
+        margin: 140px 5% 30px 0;
+        font-size: 18px;
+    }
+    .form-price span, .form-price p {
+        font-size: 12px;
+    }
+    .form-price p {
+        margin-top: 5px;
+    }
+    .form-price input {
+        width: 100px;
+    }
+    .form-price {
+        width: 100%;
+    }
+    .form {
+        grid-template-columns: 1fr;
+        margin-left: 50%;
+    }
+    .block-price {
+        background-size: cover;
+        height: 200px;
+    }
+    .label {
+        margin: 0 0 20px 0;
+    }
+    .price-clock{
+        margin: 20px 0 30px 20%;
+    }
+}
+@media screen and (max-width: 574px) { 
+    header {
+        padding: 0 5% 0 5%;
+        grid-template-columns: 1fr 1fr;
+    }
+    #logo-txt {
+        font-size: 16px;
+    }
+    .logo {
+        margin: 35px 0 0 0;
+        order: 1;
+    }
+    .phone-order {
+        order: 2;
+        margin-left: auto;
+        padding: 17px 10% 17px 10%;
+    }
+    .time {
+        order: 3;
+        margin: 0 0 10px 0;
+        margin-right: auto;
+        padding: 0 0 0 5%;
+        
+    }
+    .phone-number {
+        order: 4;
+        margin: 0 0 10px;
+        margin-left: auto;
+        padding-right: 10%;
+    }
+    .phone-order {
+        margin-bottom: 10px;
+    }
+    .block-content {
+        background: #f7b516;
+        height: 400px;
+    }
+    .block-content .info {
+        background: none;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    .block-content .txt-h2 {
+        font-size: 36px;
+        padding: 10px 0 5px 0;
+        text-align: center;
+    }
+    .block-content .txt-p {
+        padding-bottom: 30px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .bank, .track, .calendar, .medal {
+        margin: 15px 10% 15px 10%;
+        font-size: 14px;
+        width: 80%;
+    }
+    .block-price {
+        background: #fff;
+    }
+    .form-price {
+        margin: 0;
+        width: 100%;
+    }
+    .form-price h3 {
+        margin: 170px 0 40px 0;
+        text-align: center;
+        font-size: 24px;
+    }
+    .form {
+        grid-template-columns: 1fr;
+        margin: 0;
+    }
+    .email, .phone {
+        grid-template-columns: 3fr 1fr;
+        margin: 0 10% 0 10%;
+    }
+    .label {
+        margin: 0 0 20px 0;
+    }
+    .price-clock{
+        margin: 20px 0 30px 10%;
+    }
+}
